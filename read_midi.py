@@ -4,7 +4,9 @@ from rtmidi import API_LINUX_ALSA, MidiIn
 
 def read_midi():
     alsa_midi = MidiIn(API_LINUX_ALSA)
-    with alsa_midi.open_port(1) as open_port:
+    print(alsa_midi.get_ports())
+    selected_port = int(input("Select port: "))
+    with alsa_midi.open_port(selected_port) as open_port:
         timer = time.time()
         try:
             while True:
