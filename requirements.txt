@@ -1,5 +1,12 @@
 cffi==1.14.0
+mpmath==1.1.0
+numeral==0.1.0.11
 numpy==1.18.1
 pycparser==2.19
+pygame==1.9.6
+pytheory==0.1.2
 python-rtmidi==1.4.0
+PyTuning==0.7.2
+scipy==1.4.1
 sounddevice==0.3.14
+sympy==1.5.1
