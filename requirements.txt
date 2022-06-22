@@ -1,7 +1,7 @@
 cffi==1.14.0
 mpmath==1.1.0
 numeral==0.1.0.11
-numpy==1.18.1
+numpy==1.22.0
 pycparser==2.19
 pygame==1.9.6
 pytheory==0.1.2
